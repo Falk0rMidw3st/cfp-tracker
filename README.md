@@ -1,8 +1,7 @@
 # CFP Tracker
 
 A CLI for tracking conference talk submissions: deadlines, which talk
-version went where, and what's still open. Built for the "which CFPs am I
-supposed to be working on this month" problem every conference speaker has.
+version went where, and what's still open. Built for the "what CFPs are due" problem every conference speaker has.
 
 ## Install
 
