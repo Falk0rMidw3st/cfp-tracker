@@ -1,6 +1,6 @@
 # CFP Tracker
 
-A CLI for tracking conference talk submissions — deadlines, which talk
+A CLI for tracking conference talk submissions: deadlines, which talk
 version went where, and what's still open. Built for the "which CFPs am I
 supposed to be working on this month" problem every conference speaker has.
 
@@ -44,7 +44,7 @@ State lives in `cfp_state.json` in the current directory by default
 
 `watching` → `drafted` → `submitted` → `accepted` / `rejected` (or
 `withdrawn` at any point). `cfp due` only surfaces `watching`/`drafted`
-items — once something's submitted it drops off the "still need to act on
+items; once something's submitted it drops off the "still need to act on
 this" report.
 
 ## Development
