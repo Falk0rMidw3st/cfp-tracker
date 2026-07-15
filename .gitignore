@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# personal CFP tracking data - don't commit your own submissions
+cfp_state.json
+*_state.json

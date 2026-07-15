@@ -1,0 +1,25 @@
+[project]
+name = "cfptracker"
+version = "0.1.0"
+description = "CLI for tracking conference CFP submissions, deadlines, and decisions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amanda Kollmorgan" }]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+cfp = "cfptracker.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
